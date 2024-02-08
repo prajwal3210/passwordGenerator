@@ -1,0 +1,67 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 8rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.input {
+  padding-top: 25px;
+  border-radius: 10px; /* Adjust the value to control the amount of curvature */
+  padding: 8px 12px; /* Adjust padding as needed */
+
+  font-size: 20px;
+}
+.charcoal {
+  border-radius: 29px;
+  background: linear-gradient(315deg, #8677af, #9f8dd0);
+  box-shadow: -19px -19px 38px #716493, 19px 19px 38px #b9a4f1;
+}
+h1 {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #413956;
+}
+.font-color {
+  color: #413956;
+  font-family: "Oswald", sans-serif;
+}
+.copy {
+  font-family: Arial, Helvetica, sans-serif;
+}
